@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566D99601C9AAADD00608B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D995F1C9AAADD00608B53 /* main.m */; };
+		566D99631C9AAADD00608B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99621C9AAADD00608B53 /* AppDelegate.m */; };
+		566D99661C9AAADD00608B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99651C9AAADD00608B53 /* ViewController.m */; };
+		566D99691C9AAADD00608B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D99671C9AAADD00608B53 /* Main.storyboard */; };
+		566D996B1C9AAADD00608B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566D996A1C9AAADD00608B53 /* Assets.xcassets */; };
+		566D996E1C9AAADD00608B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D996C1C9AAADD00608B53 /* LaunchScreen.storyboard */; };
+		566D99791C9AAADD00608B53 /* AcuraCinemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99781C9AAADD00608B53 /* AcuraCinemaTests.m */; };
+		566D99841C9AAADD00608B53 /* AcuraCinemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99831C9AAADD00608B53 /* AcuraCinemaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		566D99751C9AAADD00608B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566D99531C9AAADD00608B53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566D995A1C9AAADD00608B53;
+			remoteInfo = AcuraCinema;
+		};
+		566D99801C9AAADD00608B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566D99531C9AAADD00608B53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566D995A1C9AAADD00608B53;
+			remoteInfo = AcuraCinema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		566D995B1C9AAADD00608B53 /* AcuraCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcuraCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566D995F1C9AAADD00608B53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		566D99611C9AAADD00608B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		566D99621C9AAADD00608B53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		566D99641C9AAADD00608B53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		566D99651C9AAADD00608B53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		566D99681C9AAADD00608B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		566D996A1C9AAADD00608B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566D996D1C9AAADD00608B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566D996F1C9AAADD00608B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566D99741C9AAADD00608B53 /* AcuraCinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcuraCinemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566D99781C9AAADD00608B53 /* AcuraCinemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcuraCinemaTests.m; sourceTree = "<group>"; };
+		566D997A1C9AAADD00608B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566D997F1C9AAADD00608B53 /* AcuraCinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcuraCinemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566D99831C9AAADD00608B53 /* AcuraCinemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcuraCinemaUITests.m; sourceTree = "<group>"; };
+		566D99851C9AAADD00608B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566D99581C9AAADD00608B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566D99711C9AAADD00608B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566D997C1C9AAADD00608B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566D99521C9AAADD00608B53 = {
+			isa = PBXGroup;
+			children = (
+				566D995D1C9AAADD00608B53 /* AcuraCinema */,
+				566D99771C9AAADD00608B53 /* AcuraCinemaTests */,
+				566D99821C9AAADD00608B53 /* AcuraCinemaUITests */,
+				566D995C1C9AAADD00608B53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		566D995C1C9AAADD00608B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566D995B1C9AAADD00608B53 /* AcuraCinema.app */,
+				566D99741C9AAADD00608B53 /* AcuraCinemaTests.xctest */,
+				566D997F1C9AAADD00608B53 /* AcuraCinemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		566D995D1C9AAADD00608B53 /* AcuraCinema */ = {
+			isa = PBXGroup;
+			children = (
+				566D99611C9AAADD00608B53 /* AppDelegate.h */,
+				566D99621C9AAADD00608B53 /* AppDelegate.m */,
+				566D99641C9AAADD00608B53 /* ViewController.h */,
+				566D99651C9AAADD00608B53 /* ViewController.m */,
+				566D99671C9AAADD00608B53 /* Main.storyboard */,
+				566D996A1C9AAADD00608B53 /* Assets.xcassets */,
+				566D996C1C9AAADD00608B53 /* LaunchScreen.storyboard */,
+				566D996F1C9AAADD00608B53 /* Info.plist */,
+				566D995E1C9AAADD00608B53 /* Supporting Files */,
+			);
+			path = AcuraCinema;
+			sourceTree = "<group>";
+		};
+		566D995E1C9AAADD00608B53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				566D995F1C9AAADD00608B53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		566D99771C9AAADD00608B53 /* AcuraCinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				566D99781C9AAADD00608B53 /* AcuraCinemaTests.m */,
+				566D997A1C9AAADD00608B53 /* Info.plist */,
+			);
+			path = AcuraCinemaTests;
+			sourceTree = "<group>";
+		};
+		566D99821C9AAADD00608B53 /* AcuraCinemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				566D99831C9AAADD00608B53 /* AcuraCinemaUITests.m */,
+				566D99851C9AAADD00608B53 /* Info.plist */,
+			);
+			path = AcuraCinemaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566D995A1C9AAADD00608B53 /* AcuraCinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566D99881C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinema" */;
+			buildPhases = (
+				566D99571C9AAADD00608B53 /* Sources */,
+				566D99581C9AAADD00608B53 /* Frameworks */,
+				566D99591C9AAADD00608B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcuraCinema;
+			productName = AcuraCinema;
+			productReference = 566D995B1C9AAADD00608B53 /* AcuraCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		566D99731C9AAADD00608B53 /* AcuraCinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566D998B1C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinemaTests" */;
+			buildPhases = (
+				566D99701C9AAADD00608B53 /* Sources */,
+				566D99711C9AAADD00608B53 /* Frameworks */,
+				566D99721C9AAADD00608B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566D99761C9AAADD00608B53 /* PBXTargetDependency */,
+			);
+			name = AcuraCinemaTests;
+			productName = AcuraCinemaTests;
+			productReference = 566D99741C9AAADD00608B53 /* AcuraCinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		566D997E1C9AAADD00608B53 /* AcuraCinemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566D998E1C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinemaUITests" */;
+			buildPhases = (
+				566D997B1C9AAADD00608B53 /* Sources */,
+				566D997C1C9AAADD00608B53 /* Frameworks */,
+				566D997D1C9AAADD00608B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566D99811C9AAADD00608B53 /* PBXTargetDependency */,
+			);
+			name = AcuraCinemaUITests;
+			productName = AcuraCinemaUITests;
+			productReference = 566D997F1C9AAADD00608B53 /* AcuraCinemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		566D99531C9AAADD00608B53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yanwei;
+				TargetAttributes = {
+					566D995A1C9AAADD00608B53 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					566D99731C9AAADD00608B53 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 566D995A1C9AAADD00608B53;
+					};
+					566D997E1C9AAADD00608B53 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 566D995A1C9AAADD00608B53;
+					};
+				};
+			};
+			buildConfigurationList = 566D99561C9AAADD00608B53 /* Build configuration list for PBXProject "AcuraCinema" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566D99521C9AAADD00608B53;
+			productRefGroup = 566D995C1C9AAADD00608B53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566D995A1C9AAADD00608B53 /* AcuraCinema */,
+				566D99731C9AAADD00608B53 /* AcuraCinemaTests */,
+				566D997E1C9AAADD00608B53 /* AcuraCinemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566D99591C9AAADD00608B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566D996E1C9AAADD00608B53 /* LaunchScreen.storyboard in Resources */,
+				566D996B1C9AAADD00608B53 /* Assets.xcassets in Resources */,
+				566D99691C9AAADD00608B53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566D99721C9AAADD00608B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566D997D1C9AAADD00608B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566D99571C9AAADD00608B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566D99661C9AAADD00608B53 /* ViewController.m in Sources */,
+				566D99631C9AAADD00608B53 /* AppDelegate.m in Sources */,
+				566D99601C9AAADD00608B53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566D99701C9AAADD00608B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566D99791C9AAADD00608B53 /* AcuraCinemaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566D997B1C9AAADD00608B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566D99841C9AAADD00608B53 /* AcuraCinemaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		566D99761C9AAADD00608B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566D995A1C9AAADD00608B53 /* AcuraCinema */;
+			targetProxy = 566D99751C9AAADD00608B53 /* PBXContainerItemProxy */;
+		};
+		566D99811C9AAADD00608B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566D995A1C9AAADD00608B53 /* AcuraCinema */;
+			targetProxy = 566D99801C9AAADD00608B53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		566D99671C9AAADD00608B53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566D99681C9AAADD00608B53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		566D996C1C9AAADD00608B53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566D996D1C9AAADD00608B53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		566D99861C9AAADD00608B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		566D99871C9AAADD00608B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566D99891C9AAADD00608B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcuraCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		566D998A1C9AAADD00608B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcuraCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		566D998C1C9AAADD00608B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AcuraCinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcuraCinema.app/AcuraCinema";
+			};
+			name = Debug;
+		};
+		566D998D1C9AAADD00608B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AcuraCinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcuraCinema.app/AcuraCinema";
+			};
+			name = Release;
+		};
+		566D998F1C9AAADD00608B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AcuraCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AcuraCinema;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		566D99901C9AAADD00608B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AcuraCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AcuraCinema;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		566D99561C9AAADD00608B53 /* Build configuration list for PBXProject "AcuraCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566D99861C9AAADD00608B53 /* Debug */,
+				566D99871C9AAADD00608B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566D99881C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566D99891C9AAADD00608B53 /* Debug */,
+				566D998A1C9AAADD00608B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		566D998B1C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566D998C1C9AAADD00608B53 /* Debug */,
+				566D998D1C9AAADD00608B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		566D998E1C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566D998F1C9AAADD00608B53 /* Debug */,
+				566D99901C9AAADD00608B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 566D99531C9AAADD00608B53 /* Project object */;
+}
