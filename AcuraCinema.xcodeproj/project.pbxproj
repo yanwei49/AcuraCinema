@@ -38,6 +38,37 @@
 		56A5079E1C9BDDB5009FC294 /* YWFiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */; };
 		56A507A11C9BF104009FC294 /* YWMovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507A01C9BF104009FC294 /* YWMovieListViewController.m */; };
 		56A507A41C9BF184009FC294 /* YWMovieListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507A31C9BF184009FC294 /* YWMovieListTableViewCell.m */; };
+		77AD6E8F1C9C68F700D12520 /* 主播IMG_2453.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E711C9C68F700D12520 /* 主播IMG_2453.PNG */; };
+		77AD6E901C9C68F700D12520 /* 主播IMG_2454.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E721C9C68F700D12520 /* 主播IMG_2454.PNG */; };
+		77AD6E911C9C68F700D12520 /* 主播IMG_2456.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E731C9C68F700D12520 /* 主播IMG_2456.PNG */; };
+		77AD6E921C9C68F700D12520 /* 主播IMG_2457.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E741C9C68F700D12520 /* 主播IMG_2457.PNG */; };
+		77AD6E931C9C68F700D12520 /* 主播IMG_2458.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E751C9C68F700D12520 /* 主播IMG_2458.PNG */; };
+		77AD6E941C9C68F700D12520 /* 主播IMG_2459.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E761C9C68F700D12520 /* 主播IMG_2459.PNG */; };
+		77AD6E951C9C68F700D12520 /* 主播IMG_2460.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E771C9C68F700D12520 /* 主播IMG_2460.PNG */; };
+		77AD6E961C9C68F700D12520 /* 主播IMG_2461.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E781C9C68F700D12520 /* 主播IMG_2461.PNG */; };
+		77AD6E971C9C68F700D12520 /* 主播IMG_2462.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E791C9C68F700D12520 /* 主播IMG_2462.PNG */; };
+		77AD6E981C9C68F700D12520 /* 主播IMG_2463.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E7A1C9C68F700D12520 /* 主播IMG_2463.PNG */; };
+		77AD6E991C9C68F700D12520 /* 主播IMG_2464.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E7B1C9C68F700D12520 /* 主播IMG_2464.PNG */; };
+		77AD6E9A1C9C68F700D12520 /* 主播IMG_2465.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E7C1C9C68F700D12520 /* 主播IMG_2465.PNG */; };
+		77AD6E9B1C9C68F700D12520 /* 主播IMG_2466.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E7D1C9C68F700D12520 /* 主播IMG_2466.PNG */; };
+		77AD6E9C1C9C68F700D12520 /* 主播IMG_2467.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E7E1C9C68F700D12520 /* 主播IMG_2467.PNG */; };
+		77AD6E9D1C9C68F700D12520 /* 主播IMG_2469.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E7F1C9C68F700D12520 /* 主播IMG_2469.PNG */; };
+		77AD6E9E1C9C68F700D12520 /* 主播IMG_2470.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E801C9C68F700D12520 /* 主播IMG_2470.PNG */; };
+		77AD6E9F1C9C68F700D12520 /* 主播IMG_2471.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E811C9C68F700D12520 /* 主播IMG_2471.PNG */; };
+		77AD6EA01C9C68F700D12520 /* 主播IMG_2472.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E821C9C68F700D12520 /* 主播IMG_2472.PNG */; };
+		77AD6EA11C9C68F700D12520 /* 主播IMG_2473.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E831C9C68F700D12520 /* 主播IMG_2473.PNG */; };
+		77AD6EA21C9C68F700D12520 /* 主播IMG_2474.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E841C9C68F700D12520 /* 主播IMG_2474.PNG */; };
+		77AD6EA31C9C68F700D12520 /* 主播IMG_2475.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E851C9C68F700D12520 /* 主播IMG_2475.PNG */; };
+		77AD6EA41C9C68F700D12520 /* 主播IMG_2476.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E861C9C68F700D12520 /* 主播IMG_2476.PNG */; };
+		77AD6EA51C9C68F700D12520 /* 主播IMG_2477.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E871C9C68F700D12520 /* 主播IMG_2477.PNG */; };
+		77AD6EA61C9C68F700D12520 /* 主播IMG_2478.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E881C9C68F700D12520 /* 主播IMG_2478.PNG */; };
+		77AD6EA71C9C68F700D12520 /* 主播IMG_2479.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E891C9C68F700D12520 /* 主播IMG_2479.PNG */; };
+		77AD6EA81C9C68F700D12520 /* 主播IMG_2480.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E8A1C9C68F700D12520 /* 主播IMG_2480.PNG */; };
+		77AD6EA91C9C68F700D12520 /* 主播IMG_2481.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E8B1C9C68F700D12520 /* 主播IMG_2481.PNG */; };
+		77AD6EAA1C9C68F700D12520 /* 主播IMG_2482.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E8C1C9C68F700D12520 /* 主播IMG_2482.PNG */; };
+		77AD6EAB1C9C68F700D12520 /* 主播IMG_2483.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E8D1C9C68F700D12520 /* 主播IMG_2483.PNG */; };
+		77AD6EAC1C9C68F700D12520 /* 主播IMG_2484.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6E8E1C9C68F700D12520 /* 主播IMG_2484.PNG */; };
+		77AD6EAE1C9C691200D12520 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77AD6EAD1C9C691200D12520 /* video.mp4 */; };
 		BB3AC72C7F3D035FA4052B3E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E181D0105B7B534F96B6B3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +154,37 @@
 		56A507A01C9BF104009FC294 /* YWMovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMovieListViewController.m; sourceTree = "<group>"; };
 		56A507A21C9BF184009FC294 /* YWMovieListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMovieListTableViewCell.h; sourceTree = "<group>"; };
 		56A507A31C9BF184009FC294 /* YWMovieListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMovieListTableViewCell.m; sourceTree = "<group>"; };
+		77AD6E711C9C68F700D12520 /* 主播IMG_2453.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2453.PNG"; sourceTree = "<group>"; };
+		77AD6E721C9C68F700D12520 /* 主播IMG_2454.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2454.PNG"; sourceTree = "<group>"; };
+		77AD6E731C9C68F700D12520 /* 主播IMG_2456.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2456.PNG"; sourceTree = "<group>"; };
+		77AD6E741C9C68F700D12520 /* 主播IMG_2457.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2457.PNG"; sourceTree = "<group>"; };
+		77AD6E751C9C68F700D12520 /* 主播IMG_2458.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2458.PNG"; sourceTree = "<group>"; };
+		77AD6E761C9C68F700D12520 /* 主播IMG_2459.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2459.PNG"; sourceTree = "<group>"; };
+		77AD6E771C9C68F700D12520 /* 主播IMG_2460.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2460.PNG"; sourceTree = "<group>"; };
+		77AD6E781C9C68F700D12520 /* 主播IMG_2461.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2461.PNG"; sourceTree = "<group>"; };
+		77AD6E791C9C68F700D12520 /* 主播IMG_2462.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2462.PNG"; sourceTree = "<group>"; };
+		77AD6E7A1C9C68F700D12520 /* 主播IMG_2463.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2463.PNG"; sourceTree = "<group>"; };
+		77AD6E7B1C9C68F700D12520 /* 主播IMG_2464.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2464.PNG"; sourceTree = "<group>"; };
+		77AD6E7C1C9C68F700D12520 /* 主播IMG_2465.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2465.PNG"; sourceTree = "<group>"; };
+		77AD6E7D1C9C68F700D12520 /* 主播IMG_2466.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2466.PNG"; sourceTree = "<group>"; };
+		77AD6E7E1C9C68F700D12520 /* 主播IMG_2467.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2467.PNG"; sourceTree = "<group>"; };
+		77AD6E7F1C9C68F700D12520 /* 主播IMG_2469.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2469.PNG"; sourceTree = "<group>"; };
+		77AD6E801C9C68F700D12520 /* 主播IMG_2470.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2470.PNG"; sourceTree = "<group>"; };
+		77AD6E811C9C68F700D12520 /* 主播IMG_2471.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2471.PNG"; sourceTree = "<group>"; };
+		77AD6E821C9C68F700D12520 /* 主播IMG_2472.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2472.PNG"; sourceTree = "<group>"; };
+		77AD6E831C9C68F700D12520 /* 主播IMG_2473.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2473.PNG"; sourceTree = "<group>"; };
+		77AD6E841C9C68F700D12520 /* 主播IMG_2474.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2474.PNG"; sourceTree = "<group>"; };
+		77AD6E851C9C68F700D12520 /* 主播IMG_2475.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2475.PNG"; sourceTree = "<group>"; };
+		77AD6E861C9C68F700D12520 /* 主播IMG_2476.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2476.PNG"; sourceTree = "<group>"; };
+		77AD6E871C9C68F700D12520 /* 主播IMG_2477.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2477.PNG"; sourceTree = "<group>"; };
+		77AD6E881C9C68F700D12520 /* 主播IMG_2478.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2478.PNG"; sourceTree = "<group>"; };
+		77AD6E891C9C68F700D12520 /* 主播IMG_2479.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2479.PNG"; sourceTree = "<group>"; };
+		77AD6E8A1C9C68F700D12520 /* 主播IMG_2480.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2480.PNG"; sourceTree = "<group>"; };
+		77AD6E8B1C9C68F700D12520 /* 主播IMG_2481.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2481.PNG"; sourceTree = "<group>"; };
+		77AD6E8C1C9C68F700D12520 /* 主播IMG_2482.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2482.PNG"; sourceTree = "<group>"; };
+		77AD6E8D1C9C68F700D12520 /* 主播IMG_2483.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2483.PNG"; sourceTree = "<group>"; };
+		77AD6E8E1C9C68F700D12520 /* 主播IMG_2484.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主播IMG_2484.PNG"; sourceTree = "<group>"; };
+		77AD6EAD1C9C691200D12520 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		AB3BFBC63EF4996A89A4D5E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CD74AF5347F895A7D2E32BFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +248,8 @@
 		566D995D1C9AAADD00608B53 /* AcuraCinema */ = {
 			isa = PBXGroup;
 			children = (
+				77AD6EAD1C9C691200D12520 /* video.mp4 */,
+				77AD6E701C9C68F700D12520 /* 主播 */,
 				56A5077E1C9B91F5009FC294 /* index01.html */,
 				566D99B81C9AB15E00608B53 /* common */,
 				566D99B41C9AAF5600608B53 /* super */,
@@ -416,6 +480,43 @@
 			name = model;
 			sourceTree = "<group>";
 		};
+		77AD6E701C9C68F700D12520 /* 主播 */ = {
+			isa = PBXGroup;
+			children = (
+				77AD6E711C9C68F700D12520 /* 主播IMG_2453.PNG */,
+				77AD6E721C9C68F700D12520 /* 主播IMG_2454.PNG */,
+				77AD6E731C9C68F700D12520 /* 主播IMG_2456.PNG */,
+				77AD6E741C9C68F700D12520 /* 主播IMG_2457.PNG */,
+				77AD6E751C9C68F700D12520 /* 主播IMG_2458.PNG */,
+				77AD6E761C9C68F700D12520 /* 主播IMG_2459.PNG */,
+				77AD6E771C9C68F700D12520 /* 主播IMG_2460.PNG */,
+				77AD6E781C9C68F700D12520 /* 主播IMG_2461.PNG */,
+				77AD6E791C9C68F700D12520 /* 主播IMG_2462.PNG */,
+				77AD6E7A1C9C68F700D12520 /* 主播IMG_2463.PNG */,
+				77AD6E7B1C9C68F700D12520 /* 主播IMG_2464.PNG */,
+				77AD6E7C1C9C68F700D12520 /* 主播IMG_2465.PNG */,
+				77AD6E7D1C9C68F700D12520 /* 主播IMG_2466.PNG */,
+				77AD6E7E1C9C68F700D12520 /* 主播IMG_2467.PNG */,
+				77AD6E7F1C9C68F700D12520 /* 主播IMG_2469.PNG */,
+				77AD6E801C9C68F700D12520 /* 主播IMG_2470.PNG */,
+				77AD6E811C9C68F700D12520 /* 主播IMG_2471.PNG */,
+				77AD6E821C9C68F700D12520 /* 主播IMG_2472.PNG */,
+				77AD6E831C9C68F700D12520 /* 主播IMG_2473.PNG */,
+				77AD6E841C9C68F700D12520 /* 主播IMG_2474.PNG */,
+				77AD6E851C9C68F700D12520 /* 主播IMG_2475.PNG */,
+				77AD6E861C9C68F700D12520 /* 主播IMG_2476.PNG */,
+				77AD6E871C9C68F700D12520 /* 主播IMG_2477.PNG */,
+				77AD6E881C9C68F700D12520 /* 主播IMG_2478.PNG */,
+				77AD6E891C9C68F700D12520 /* 主播IMG_2479.PNG */,
+				77AD6E8A1C9C68F700D12520 /* 主播IMG_2480.PNG */,
+				77AD6E8B1C9C68F700D12520 /* 主播IMG_2481.PNG */,
+				77AD6E8C1C9C68F700D12520 /* 主播IMG_2482.PNG */,
+				77AD6E8D1C9C68F700D12520 /* 主播IMG_2483.PNG */,
+				77AD6E8E1C9C68F700D12520 /* 主播IMG_2484.PNG */,
+			);
+			path = "主播";
+			sourceTree = "<group>";
+		};
 		EA50E6EB8D98D178C4CD9FC7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,10 +632,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AD6EA01C9C68F700D12520 /* 主播IMG_2472.PNG in Resources */,
+				77AD6E9F1C9C68F700D12520 /* 主播IMG_2471.PNG in Resources */,
+				77AD6EAB1C9C68F700D12520 /* 主播IMG_2483.PNG in Resources */,
+				77AD6EA91C9C68F700D12520 /* 主播IMG_2481.PNG in Resources */,
+				77AD6EA11C9C68F700D12520 /* 主播IMG_2473.PNG in Resources */,
+				77AD6E931C9C68F700D12520 /* 主播IMG_2458.PNG in Resources */,
 				56A5077F1C9B91F5009FC294 /* index01.html in Resources */,
+				77AD6E961C9C68F700D12520 /* 主播IMG_2461.PNG in Resources */,
+				77AD6EA21C9C68F700D12520 /* 主播IMG_2474.PNG in Resources */,
+				77AD6E951C9C68F700D12520 /* 主播IMG_2460.PNG in Resources */,
 				566D996E1C9AAADD00608B53 /* LaunchScreen.storyboard in Resources */,
+				77AD6EAE1C9C691200D12520 /* video.mp4 in Resources */,
+				77AD6E941C9C68F700D12520 /* 主播IMG_2459.PNG in Resources */,
+				77AD6E9A1C9C68F700D12520 /* 主播IMG_2465.PNG in Resources */,
+				77AD6EA71C9C68F700D12520 /* 主播IMG_2479.PNG in Resources */,
 				566D996B1C9AAADD00608B53 /* Assets.xcassets in Resources */,
+				77AD6EA41C9C68F700D12520 /* 主播IMG_2476.PNG in Resources */,
+				77AD6E9C1C9C68F700D12520 /* 主播IMG_2467.PNG in Resources */,
+				77AD6EA61C9C68F700D12520 /* 主播IMG_2478.PNG in Resources */,
+				77AD6E9B1C9C68F700D12520 /* 主播IMG_2466.PNG in Resources */,
+				77AD6E8F1C9C68F700D12520 /* 主播IMG_2453.PNG in Resources */,
+				77AD6E9D1C9C68F700D12520 /* 主播IMG_2469.PNG in Resources */,
+				77AD6E991C9C68F700D12520 /* 主播IMG_2464.PNG in Resources */,
+				77AD6EAA1C9C68F700D12520 /* 主播IMG_2482.PNG in Resources */,
+				77AD6EA51C9C68F700D12520 /* 主播IMG_2477.PNG in Resources */,
+				77AD6E901C9C68F700D12520 /* 主播IMG_2454.PNG in Resources */,
 				566D99691C9AAADD00608B53 /* Main.storyboard in Resources */,
+				77AD6EA81C9C68F700D12520 /* 主播IMG_2480.PNG in Resources */,
+				77AD6E971C9C68F700D12520 /* 主播IMG_2462.PNG in Resources */,
+				77AD6E911C9C68F700D12520 /* 主播IMG_2456.PNG in Resources */,
+				77AD6E981C9C68F700D12520 /* 主播IMG_2463.PNG in Resources */,
+				77AD6E9E1C9C68F700D12520 /* 主播IMG_2470.PNG in Resources */,
+				77AD6EAC1C9C68F700D12520 /* 主播IMG_2484.PNG in Resources */,
+				77AD6EA31C9C68F700D12520 /* 主播IMG_2475.PNG in Resources */,
+				77AD6E921C9C68F700D12520 /* 主播IMG_2457.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
