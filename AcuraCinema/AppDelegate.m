@@ -7,17 +7,50 @@
 //
 
 #import "AppDelegate.h"
+#import "YWHomeViewController.h"
+#import "YWLiveViewController.h"
+#import "YWExpandViewController.h"
+#import "YWMineViewController.h"
+#import "YWMoreViewController.h"
+
+#define kDeviceScreenFrame [UIScreen mainScreen].bounds
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+{
+    UITabBarController      *_tabBar;
+    UINavigationController  *_homeNV;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:kDeviceScreenFrame];
+    self.window.backgroundColor = [UIColor whiteColor];
+    _tabBar = [[UITabBarController alloc] init];
+    self.window.rootViewController = _tabBar;
+
+    NSArray *vcNames = @[@"YWHomeViewController", @"YWLiveViewController", @"YWExpandViewController", @"YWMoreViewController", @"YWMineViewController"];
+    NSArray *vcTitles = @[@"优播", @"直播", @"频道", @"更多", @"会员"];
+    NSArray *vcImages = @[@"home_normal.png", @"notification_normal.png", @"mine_normal.png", @"notification_normal.png", @"mine_normal.png"];
+    NSArray *vcSelectImages = @[@"home_select.png", @"notification_select.png", @"mine_select.png", @"notification_select.png", @"mine_select.png"];
+    
+    for (NSInteger i=0; i<vcNames.count; i++) {
+        [self addChildViewControllerName:vcNames[i] title:vcTitles[i] imageName:vcImages[i] selectImageName:vcSelectImages[i]];
+    }
+
     return YES;
+}
+
+- (void)addChildViewControllerName:(NSString *)vcName title:(NSString *)title imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName {
+    id vc = (UIViewController *)[[NSClassFromString(vcName) alloc] init];
+    _homeNV = [[UINavigationController alloc] initWithRootViewController:vc];
+    _homeNV.title = title;
+    _homeNV.tabBarItem.image = [UIImage imageNamed:imageName];
+    _homeNV.tabBarItem.selectedImage = [UIImage imageNamed:selectImageName];
+    [_tabBar addChildViewController:_homeNV];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

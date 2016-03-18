@@ -9,12 +9,36 @@
 /* Begin PBXBuildFile section */
 		566D99601C9AAADD00608B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D995F1C9AAADD00608B53 /* main.m */; };
 		566D99631C9AAADD00608B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99621C9AAADD00608B53 /* AppDelegate.m */; };
-		566D99661C9AAADD00608B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99651C9AAADD00608B53 /* ViewController.m */; };
 		566D99691C9AAADD00608B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D99671C9AAADD00608B53 /* Main.storyboard */; };
 		566D996B1C9AAADD00608B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566D996A1C9AAADD00608B53 /* Assets.xcassets */; };
 		566D996E1C9AAADD00608B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D996C1C9AAADD00608B53 /* LaunchScreen.storyboard */; };
 		566D99791C9AAADD00608B53 /* AcuraCinemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99781C9AAADD00608B53 /* AcuraCinemaTests.m */; };
 		566D99841C9AAADD00608B53 /* AcuraCinemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99831C9AAADD00608B53 /* AcuraCinemaUITests.m */; };
+		566D99981C9AAB5D00608B53 /* YWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99971C9AAB5D00608B53 /* YWBaseViewController.m */; };
+		566D999E1C9AABB800608B53 /* YWLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D999D1C9AABB800608B53 /* YWLiveViewController.m */; };
+		566D99A11C9AABEB00608B53 /* YWExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99A01C9AABEB00608B53 /* YWExpandViewController.m */; };
+		566D99A41C9AABF900608B53 /* YWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99A31C9AABF900608B53 /* YWMineViewController.m */; };
+		566D99AC1C9AAEE000608B53 /* YWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99AB1C9AAEE000608B53 /* YWHomeViewController.m */; };
+		566D99B71C9AAF7C00608B53 /* YWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99B61C9AAF7C00608B53 /* YWCollectionViewCell.m */; };
+		566D99BB1C9AB17C00608B53 /* YWBuyMemberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99BA1C9AB17C00608B53 /* YWBuyMemberView.m */; };
+		56A507621C9B7827009FC294 /* YWMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507611C9B7827009FC294 /* YWMoreViewController.m */; };
+		56A507651C9B79A4009FC294 /* YWExpandCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507641C9B79A4009FC294 /* YWExpandCollectionViewCell.m */; };
+		56A507681C9B7A0E009FC294 /* YWLiveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507671C9B7A0E009FC294 /* YWLiveCollectionViewCell.m */; };
+		56A5076B1C9B7A61009FC294 /* YWMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5076A1C9B7A61009FC294 /* YWMoreTableViewCell.m */; };
+		56A5076F1C9B7E74009FC294 /* YWMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5076E1C9B7E74009FC294 /* YWMovieModel.m */; };
+		56A507721C9B7E80009FC294 /* YWPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507711C9B7E80009FC294 /* YWPictureModel.m */; };
+		56A507751C9B7E8F009FC294 /* YWUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507741C9B7E8F009FC294 /* YWUserModel.m */; };
+		56A507781C9B7F55009FC294 /* YWLoadDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507771C9B7F55009FC294 /* YWLoadDataSource.m */; };
+		56A5077B1C9B8181009FC294 /* YWMoveCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5077A1C9B8181009FC294 /* YWMoveCategory.m */; };
+		56A5077F1C9B91F5009FC294 /* index01.html in Resources */ = {isa = PBXBuildFile; fileRef = 56A5077E1C9B91F5009FC294 /* index01.html */; };
+		56A507921C9BDD82009FC294 /* YWFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507911C9BDD82009FC294 /* YWFirstTableViewCell.m */; };
+		56A507951C9BDD8D009FC294 /* YWSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507941C9BDD8D009FC294 /* YWSecondTableViewCell.m */; };
+		56A507981C9BDD98009FC294 /* YWThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507971C9BDD98009FC294 /* YWThirdTableViewCell.m */; };
+		56A5079B1C9BDDAB009FC294 /* YWFourTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5079A1C9BDDAB009FC294 /* YWFourTableViewCell.m */; };
+		56A5079E1C9BDDB5009FC294 /* YWFiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */; };
+		56A507A11C9BF104009FC294 /* YWMovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507A01C9BF104009FC294 /* YWMovieListViewController.m */; };
+		56A507A41C9BF184009FC294 /* YWMovieListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507A31C9BF184009FC294 /* YWMovieListTableViewCell.m */; };
+		BB3AC72C7F3D035FA4052B3E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E181D0105B7B534F96B6B3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33E181D0105B7B534F96B6B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		566D995B1C9AAADD00608B53 /* AcuraCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcuraCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566D995F1C9AAADD00608B53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		566D99611C9AAADD00608B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		566D99621C9AAADD00608B53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		566D99641C9AAADD00608B53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		566D99651C9AAADD00608B53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		566D99681C9AAADD00608B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		566D996A1C9AAADD00608B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566D996D1C9AAADD00608B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +74,57 @@
 		566D997F1C9AAADD00608B53 /* AcuraCinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcuraCinemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		566D99831C9AAADD00608B53 /* AcuraCinemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcuraCinemaUITests.m; sourceTree = "<group>"; };
 		566D99851C9AAADD00608B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566D99961C9AAB5D00608B53 /* YWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWBaseViewController.h; sourceTree = "<group>"; };
+		566D99971C9AAB5D00608B53 /* YWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWBaseViewController.m; sourceTree = "<group>"; };
+		566D999C1C9AABB800608B53 /* YWLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLiveViewController.h; sourceTree = "<group>"; };
+		566D999D1C9AABB800608B53 /* YWLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLiveViewController.m; sourceTree = "<group>"; };
+		566D999F1C9AABEB00608B53 /* YWExpandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWExpandViewController.h; sourceTree = "<group>"; };
+		566D99A01C9AABEB00608B53 /* YWExpandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWExpandViewController.m; sourceTree = "<group>"; };
+		566D99A21C9AABF900608B53 /* YWMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMineViewController.h; sourceTree = "<group>"; };
+		566D99A31C9AABF900608B53 /* YWMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMineViewController.m; sourceTree = "<group>"; };
+		566D99AA1C9AAEE000608B53 /* YWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWHomeViewController.h; sourceTree = "<group>"; };
+		566D99AB1C9AAEE000608B53 /* YWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWHomeViewController.m; sourceTree = "<group>"; };
+		566D99B51C9AAF7C00608B53 /* YWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWCollectionViewCell.h; sourceTree = "<group>"; };
+		566D99B61C9AAF7C00608B53 /* YWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWCollectionViewCell.m; sourceTree = "<group>"; };
+		566D99B91C9AB17C00608B53 /* YWBuyMemberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWBuyMemberView.h; sourceTree = "<group>"; };
+		566D99BA1C9AB17C00608B53 /* YWBuyMemberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWBuyMemberView.m; sourceTree = "<group>"; };
+		566D99BC1C9AB3F000608B53 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		566D99BD1C9AB46800608B53 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		56A507601C9B7827009FC294 /* YWMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMoreViewController.h; sourceTree = "<group>"; };
+		56A507611C9B7827009FC294 /* YWMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMoreViewController.m; sourceTree = "<group>"; };
+		56A507631C9B79A4009FC294 /* YWExpandCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWExpandCollectionViewCell.h; sourceTree = "<group>"; };
+		56A507641C9B79A4009FC294 /* YWExpandCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWExpandCollectionViewCell.m; sourceTree = "<group>"; };
+		56A507661C9B7A0E009FC294 /* YWLiveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLiveCollectionViewCell.h; sourceTree = "<group>"; };
+		56A507671C9B7A0E009FC294 /* YWLiveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLiveCollectionViewCell.m; sourceTree = "<group>"; };
+		56A507691C9B7A61009FC294 /* YWMoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMoreTableViewCell.h; sourceTree = "<group>"; };
+		56A5076A1C9B7A61009FC294 /* YWMoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMoreTableViewCell.m; sourceTree = "<group>"; };
+		56A5076D1C9B7E74009FC294 /* YWMovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMovieModel.h; sourceTree = "<group>"; };
+		56A5076E1C9B7E74009FC294 /* YWMovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMovieModel.m; sourceTree = "<group>"; };
+		56A507701C9B7E80009FC294 /* YWPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPictureModel.h; sourceTree = "<group>"; };
+		56A507711C9B7E80009FC294 /* YWPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWPictureModel.m; sourceTree = "<group>"; };
+		56A507731C9B7E8F009FC294 /* YWUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWUserModel.h; sourceTree = "<group>"; };
+		56A507741C9B7E8F009FC294 /* YWUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWUserModel.m; sourceTree = "<group>"; };
+		56A507761C9B7F55009FC294 /* YWLoadDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLoadDataSource.h; sourceTree = "<group>"; };
+		56A507771C9B7F55009FC294 /* YWLoadDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLoadDataSource.m; sourceTree = "<group>"; };
+		56A507791C9B8181009FC294 /* YWMoveCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMoveCategory.h; sourceTree = "<group>"; };
+		56A5077A1C9B8181009FC294 /* YWMoveCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMoveCategory.m; sourceTree = "<group>"; };
+		56A5077E1C9B91F5009FC294 /* index01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index01.html; sourceTree = "<group>"; };
+		56A507901C9BDD82009FC294 /* YWFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWFirstTableViewCell.h; sourceTree = "<group>"; };
+		56A507911C9BDD82009FC294 /* YWFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWFirstTableViewCell.m; sourceTree = "<group>"; };
+		56A507931C9BDD8D009FC294 /* YWSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWSecondTableViewCell.h; sourceTree = "<group>"; };
+		56A507941C9BDD8D009FC294 /* YWSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWSecondTableViewCell.m; sourceTree = "<group>"; };
+		56A507961C9BDD98009FC294 /* YWThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWThirdTableViewCell.h; sourceTree = "<group>"; };
+		56A507971C9BDD98009FC294 /* YWThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWThirdTableViewCell.m; sourceTree = "<group>"; };
+		56A507991C9BDDAB009FC294 /* YWFourTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWFourTableViewCell.h; sourceTree = "<group>"; };
+		56A5079A1C9BDDAB009FC294 /* YWFourTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWFourTableViewCell.m; sourceTree = "<group>"; };
+		56A5079C1C9BDDB5009FC294 /* YWFiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWFiveTableViewCell.h; sourceTree = "<group>"; };
+		56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWFiveTableViewCell.m; sourceTree = "<group>"; };
+		56A5079F1C9BF104009FC294 /* YWMovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMovieListViewController.h; sourceTree = "<group>"; };
+		56A507A01C9BF104009FC294 /* YWMovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMovieListViewController.m; sourceTree = "<group>"; };
+		56A507A21C9BF184009FC294 /* YWMovieListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMovieListTableViewCell.h; sourceTree = "<group>"; };
+		56A507A31C9BF184009FC294 /* YWMovieListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMovieListTableViewCell.m; sourceTree = "<group>"; };
+		AB3BFBC63EF4996A89A4D5E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CD74AF5347F895A7D2E32BFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3AC72C7F3D035FA4052B3E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +153,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5400CB01385486D78B394BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E181D0105B7B534F96B6B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		566D99521C9AAADD00608B53 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +168,8 @@
 				566D99771C9AAADD00608B53 /* AcuraCinemaTests */,
 				566D99821C9AAADD00608B53 /* AcuraCinemaUITests */,
 				566D995C1C9AAADD00608B53 /* Products */,
+				EA50E6EB8D98D178C4CD9FC7 /* Pods */,
+				5400CB01385486D78B394BFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +186,18 @@
 		566D995D1C9AAADD00608B53 /* AcuraCinema */ = {
 			isa = PBXGroup;
 			children = (
+				56A5077E1C9B91F5009FC294 /* index01.html */,
+				566D99B81C9AB15E00608B53 /* common */,
+				566D99B41C9AAF5600608B53 /* super */,
+				566D99A91C9AAEC800608B53 /* 优播 */,
+				566D99941C9AAB0100608B53 /* 主播 */,
+				566D99931C9AAAFF00608B53 /* 频道 */,
+				566D99921C9AAAFD00608B53 /* 更多 */,
+				566D99911C9AAAF300608B53 /* 会员 */,
 				566D99611C9AAADD00608B53 /* AppDelegate.h */,
 				566D99621C9AAADD00608B53 /* AppDelegate.m */,
-				566D99641C9AAADD00608B53 /* ViewController.h */,
-				566D99651C9AAADD00608B53 /* ViewController.m */,
+				566D99BC1C9AB3F000608B53 /* Header.h */,
+				566D99BD1C9AB46800608B53 /* PrefixHeader.pch */,
 				566D99671C9AAADD00608B53 /* Main.storyboard */,
 				566D996A1C9AAADD00608B53 /* Assets.xcassets */,
 				566D996C1C9AAADD00608B53 /* LaunchScreen.storyboard */,
@@ -140,6 +233,198 @@
 			path = AcuraCinemaUITests;
 			sourceTree = "<group>";
 		};
+		566D99911C9AAAF300608B53 /* 会员 */ = {
+			isa = PBXGroup;
+			children = (
+				566D99A81C9AAEAB00608B53 /* vc */,
+				566D99B11C9AAF0400608B53 /* v */,
+			);
+			name = "会员";
+			sourceTree = "<group>";
+		};
+		566D99921C9AAAFD00608B53 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				566D99B31C9AAF1100608B53 /* vc */,
+				566D99B21C9AAF0C00608B53 /* v */,
+			);
+			name = "更多";
+			sourceTree = "<group>";
+		};
+		566D99931C9AAAFF00608B53 /* 频道 */ = {
+			isa = PBXGroup;
+			children = (
+				566D99A71C9AAEA500608B53 /* vc */,
+				566D99B01C9AAEFD00608B53 /* v */,
+			);
+			name = "频道";
+			sourceTree = "<group>";
+		};
+		566D99941C9AAB0100608B53 /* 主播 */ = {
+			isa = PBXGroup;
+			children = (
+				566D99A61C9AAE9500608B53 /* vc */,
+				566D99AF1C9AAEF600608B53 /* v */,
+			);
+			name = "主播";
+			sourceTree = "<group>";
+		};
+		566D99A61C9AAE9500608B53 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				566D999C1C9AABB800608B53 /* YWLiveViewController.h */,
+				566D999D1C9AABB800608B53 /* YWLiveViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		566D99A71C9AAEA500608B53 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				566D999F1C9AABEB00608B53 /* YWExpandViewController.h */,
+				566D99A01C9AABEB00608B53 /* YWExpandViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		566D99A81C9AAEAB00608B53 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				566D99A21C9AABF900608B53 /* YWMineViewController.h */,
+				566D99A31C9AABF900608B53 /* YWMineViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		566D99A91C9AAEC800608B53 /* 优播 */ = {
+			isa = PBXGroup;
+			children = (
+				566D99AD1C9AAEE500608B53 /* vc */,
+				566D99AE1C9AAEEE00608B53 /* v */,
+			);
+			name = "优播";
+			sourceTree = "<group>";
+		};
+		566D99AD1C9AAEE500608B53 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				566D99AA1C9AAEE000608B53 /* YWHomeViewController.h */,
+				566D99AB1C9AAEE000608B53 /* YWHomeViewController.m */,
+				56A5079F1C9BF104009FC294 /* YWMovieListViewController.h */,
+				56A507A01C9BF104009FC294 /* YWMovieListViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		566D99AE1C9AAEEE00608B53 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				56A507901C9BDD82009FC294 /* YWFirstTableViewCell.h */,
+				56A507911C9BDD82009FC294 /* YWFirstTableViewCell.m */,
+				56A507931C9BDD8D009FC294 /* YWSecondTableViewCell.h */,
+				56A507941C9BDD8D009FC294 /* YWSecondTableViewCell.m */,
+				56A507961C9BDD98009FC294 /* YWThirdTableViewCell.h */,
+				56A507971C9BDD98009FC294 /* YWThirdTableViewCell.m */,
+				56A507991C9BDDAB009FC294 /* YWFourTableViewCell.h */,
+				56A5079A1C9BDDAB009FC294 /* YWFourTableViewCell.m */,
+				56A5079C1C9BDDB5009FC294 /* YWFiveTableViewCell.h */,
+				56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */,
+				56A507A21C9BF184009FC294 /* YWMovieListTableViewCell.h */,
+				56A507A31C9BF184009FC294 /* YWMovieListTableViewCell.m */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		566D99AF1C9AAEF600608B53 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				56A507661C9B7A0E009FC294 /* YWLiveCollectionViewCell.h */,
+				56A507671C9B7A0E009FC294 /* YWLiveCollectionViewCell.m */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		566D99B01C9AAEFD00608B53 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				56A507631C9B79A4009FC294 /* YWExpandCollectionViewCell.h */,
+				56A507641C9B79A4009FC294 /* YWExpandCollectionViewCell.m */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		566D99B11C9AAF0400608B53 /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		566D99B21C9AAF0C00608B53 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				56A507691C9B7A61009FC294 /* YWMoreTableViewCell.h */,
+				56A5076A1C9B7A61009FC294 /* YWMoreTableViewCell.m */,
+			);
+			name = v;
+			sourceTree = "<group>";
+		};
+		566D99B31C9AAF1100608B53 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				56A507601C9B7827009FC294 /* YWMoreViewController.h */,
+				56A507611C9B7827009FC294 /* YWMoreViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		566D99B41C9AAF5600608B53 /* super */ = {
+			isa = PBXGroup;
+			children = (
+				566D99961C9AAB5D00608B53 /* YWBaseViewController.h */,
+				566D99971C9AAB5D00608B53 /* YWBaseViewController.m */,
+				566D99B51C9AAF7C00608B53 /* YWCollectionViewCell.h */,
+				566D99B61C9AAF7C00608B53 /* YWCollectionViewCell.m */,
+			);
+			name = super;
+			sourceTree = "<group>";
+		};
+		566D99B81C9AB15E00608B53 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				56A5076C1C9B7E64009FC294 /* model */,
+				566D99B91C9AB17C00608B53 /* YWBuyMemberView.h */,
+				566D99BA1C9AB17C00608B53 /* YWBuyMemberView.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		56A5076C1C9B7E64009FC294 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				56A5076D1C9B7E74009FC294 /* YWMovieModel.h */,
+				56A5076E1C9B7E74009FC294 /* YWMovieModel.m */,
+				56A507701C9B7E80009FC294 /* YWPictureModel.h */,
+				56A507711C9B7E80009FC294 /* YWPictureModel.m */,
+				56A507731C9B7E8F009FC294 /* YWUserModel.h */,
+				56A507741C9B7E8F009FC294 /* YWUserModel.m */,
+				56A507761C9B7F55009FC294 /* YWLoadDataSource.h */,
+				56A507771C9B7F55009FC294 /* YWLoadDataSource.m */,
+				56A507791C9B8181009FC294 /* YWMoveCategory.h */,
+				56A5077A1C9B8181009FC294 /* YWMoveCategory.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		EA50E6EB8D98D178C4CD9FC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB3BFBC63EF4996A89A4D5E3 /* Pods.debug.xcconfig */,
+				CD74AF5347F895A7D2E32BFF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +432,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566D99881C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinema" */;
 			buildPhases = (
+				E7D994012A5AB22E50BC534A /* Check Pods Manifest.lock */,
 				566D99571C9AAADD00608B53 /* Sources */,
 				566D99581C9AAADD00608B53 /* Frameworks */,
 				566D99591C9AAADD00608B53 /* Resources */,
+				ADA7700548B250DC6151587C /* Embed Pods Frameworks */,
+				F6A914AB6DA8CC0648439E34 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +531,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A5077F1C9B91F5009FC294 /* index01.html in Resources */,
 				566D996E1C9AAADD00608B53 /* LaunchScreen.storyboard in Resources */,
 				566D996B1C9AAADD00608B53 /* Assets.xcassets in Resources */,
 				566D99691C9AAADD00608B53 /* Main.storyboard in Resources */,
@@ -265,14 +554,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADA7700548B250DC6151587C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D994012A5AB22E50BC534A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A914AB6DA8CC0648439E34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		566D99571C9AAADD00608B53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566D99661C9AAADD00608B53 /* ViewController.m in Sources */,
+				56A507921C9BDD82009FC294 /* YWFirstTableViewCell.m in Sources */,
+				56A5077B1C9B8181009FC294 /* YWMoveCategory.m in Sources */,
+				56A507A41C9BF184009FC294 /* YWMovieListTableViewCell.m in Sources */,
+				566D999E1C9AABB800608B53 /* YWLiveViewController.m in Sources */,
+				56A507651C9B79A4009FC294 /* YWExpandCollectionViewCell.m in Sources */,
+				56A5076F1C9B7E74009FC294 /* YWMovieModel.m in Sources */,
+				566D99AC1C9AAEE000608B53 /* YWHomeViewController.m in Sources */,
+				566D99B71C9AAF7C00608B53 /* YWCollectionViewCell.m in Sources */,
+				56A507681C9B7A0E009FC294 /* YWLiveCollectionViewCell.m in Sources */,
+				56A507981C9BDD98009FC294 /* YWThirdTableViewCell.m in Sources */,
+				56A507A11C9BF104009FC294 /* YWMovieListViewController.m in Sources */,
+				566D99A41C9AABF900608B53 /* YWMineViewController.m in Sources */,
+				56A5076B1C9B7A61009FC294 /* YWMoreTableViewCell.m in Sources */,
+				56A507781C9B7F55009FC294 /* YWLoadDataSource.m in Sources */,
+				56A507751C9B7E8F009FC294 /* YWUserModel.m in Sources */,
 				566D99631C9AAADD00608B53 /* AppDelegate.m in Sources */,
+				56A507951C9BDD8D009FC294 /* YWSecondTableViewCell.m in Sources */,
+				56A507621C9B7827009FC294 /* YWMoreViewController.m in Sources */,
 				566D99601C9AAADD00608B53 /* main.m in Sources */,
+				56A5079E1C9BDDB5009FC294 /* YWFiveTableViewCell.m in Sources */,
+				566D99BB1C9AB17C00608B53 /* YWBuyMemberView.m in Sources */,
+				566D99A11C9AABEB00608B53 /* YWExpandViewController.m in Sources */,
+				56A5079B1C9BDDAB009FC294 /* YWFourTableViewCell.m in Sources */,
+				566D99981C9AAB5D00608B53 /* YWBaseViewController.m in Sources */,
+				56A507721C9B7E80009FC294 /* YWPictureModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +768,10 @@
 		};
 		566D99891C9AAADD00608B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3BFBC63EF4996A89A4D5E3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AcuraCinema/PrefixHeader.pch";
 				INFOPLIST_FILE = AcuraCinema/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinema;
@@ -420,8 +781,10 @@
 		};
 		566D998A1C9AAADD00608B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD74AF5347F895A7D2E32BFF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AcuraCinema/PrefixHeader.pch";
 				INFOPLIST_FILE = AcuraCinema/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qunongzhuang.AcuraCinema;
@@ -496,6 +859,7 @@
 				566D998A1C9AAADD00608B53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		566D998B1C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinemaTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +868,7 @@
 				566D998D1C9AAADD00608B53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		566D998E1C9AAADD00608B53 /* Build configuration list for PBXNativeTarget "AcuraCinemaUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +877,7 @@
 				566D99901C9AAADD00608B53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
