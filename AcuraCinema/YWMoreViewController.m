@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     webview = [[UIWebView alloc] initWithFrame:self.view.bounds];
     webview.backgroundColor = [UIColor clearColor];
     webview.scalesPageToFit =YES;
@@ -33,7 +33,7 @@
     [webview loadRequest:[NSURLRequest requestWithURL:url]];
     [self.view addSubview:webview];
     
-    [self createSubView];
+//    [self createSubView];
 }
 
 - (void)createSubView {
@@ -49,7 +49,7 @@
     [_tableView makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.top.left.right.offset(0);
     }];
-
+    
     
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     button.backgroundColor = [UIColor greenColor];
@@ -63,9 +63,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    YWMoreTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     if (!cell) {
-        cell = [[YWMoreTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
     
     return cell;
@@ -82,7 +82,7 @@
 
 
 - (void)onclick {
-    [webview stringByEvaluatingJavaScriptFromString:@"func1(value1,value2);"];
+    [webview stringByEvaluatingJavaScriptFromString:@"func1();"];
     //    NSLog(@"+++++++%@", str);
 }
 
@@ -117,7 +117,7 @@
     
     if ([method isEqualToString:@"InviteBtn1"]) {
         //查看详情，其中红色部分是HTML5跟咱们约定好的，相应H5上的按钮的点击事件后，H5发送超链接，客户端一旦收到这个超链接信号。把其中的点击按钮的约定的信号标示符截取出来跟本地的标示符来进行匹配，如果匹配成功，那么就执行相应的操作，详情见如下所示。
-
+        
     }else if ([method isEqualToString:@"InviteBtn2"]) {
         
     }

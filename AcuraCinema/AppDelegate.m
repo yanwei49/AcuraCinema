@@ -12,6 +12,7 @@
 #import "YWExpandViewController.h"
 #import "YWMineViewController.h"
 #import "YWMoreViewController.h"
+#import "YWNavViewController.h"
 
 #define kDeviceScreenFrame [UIScreen mainScreen].bounds
 
@@ -22,7 +23,7 @@
 @implementation AppDelegate
 {
     UITabBarController      *_tabBar;
-    UINavigationController  *_homeNV;
+    YWNavViewController     *_homeNV;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -30,6 +31,11 @@
     self.window = [[UIWindow alloc] initWithFrame:kDeviceScreenFrame];
     self.window.backgroundColor = [UIColor whiteColor];
     _tabBar = [[UITabBarController alloc] init];
+    _tabBar.tabBar.tintColor = CustomColor(255, 73, 147);
+    CGRect frame = CGRectMake(0, 0, kDeviceWidth, 49);
+    UIView *v = [[UIView alloc]initWithFrame:frame];
+    v.backgroundColor = CustomColor(10, 10, 10);
+    [_tabBar.tabBar insertSubview:v atIndex:0];
     self.window.rootViewController = _tabBar;
 
     NSArray *vcNames = @[@"YWHomeViewController", @"YWLiveViewController", @"YWExpandViewController", @"YWMoreViewController", @"YWMineViewController"];
@@ -46,7 +52,7 @@
 
 - (void)addChildViewControllerName:(NSString *)vcName title:(NSString *)title imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName {
     id vc = (UIViewController *)[[NSClassFromString(vcName) alloc] init];
-    _homeNV = [[UINavigationController alloc] initWithRootViewController:vc];
+    _homeNV = [[YWNavViewController alloc] initWithRootViewController:vc];
     _homeNV.title = title;
     _homeNV.tabBarItem.image = [UIImage imageNamed:imageName];
     _homeNV.tabBarItem.selectedImage = [UIImage imageNamed:selectImageName];

@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 typedef enum : NSUInteger {
+    kCategoryHY,
+    kCategoryRH,
+    kCategoryZF,
     kCategoryNX,
     kCategoryGZ,
     kCategoryLX,

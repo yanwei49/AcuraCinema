@@ -8,6 +8,9 @@
 
 #import "YWCollectionViewCell.h"
 
+@class YWUserModel;
 @interface YWLiveCollectionViewCell : YWCollectionViewCell
+
+@property (nonatomic, strong) YWUserModel *user;
 
 @end

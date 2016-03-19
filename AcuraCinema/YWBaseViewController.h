@@ -10,8 +10,6 @@
 
 @interface YWBaseViewController : UIViewController
 
-- (void)showNotMemberView;
-
-- (void)hiddenNotMemberView;
+- (BOOL)checkIsMember;
 
 @end

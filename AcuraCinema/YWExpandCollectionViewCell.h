@@ -11,6 +11,7 @@
 @class YWMoveCategory;
 @interface YWExpandCollectionViewCell : YWCollectionViewCell
 
+@property (nonatomic, assign) NSInteger textFont;
 @property (nonatomic, strong) YWMoveCategory *category;
 
 @end

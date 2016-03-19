@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class YWMovieModel;
 @interface YWMovieListTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) YWMovieModel *movie;
 
 @end

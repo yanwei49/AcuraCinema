@@ -32,14 +32,14 @@
             [self.contentView addSubview:button];
             [_buttons addObject:button];
             [button makeConstraints:^(MASConstraintMaker *make) {
-                make.left.offset(10+(kDeviceWidth-30)/2*(i%2));
-                make.width.offset((kDeviceWidth-30)/2);
-                make.height.offset(80);
-                make.top.offset(10+90*(i/2));
+                make.left.offset(5*(i+1)+(kDeviceWidth-15)/2*(i%2));
+                make.width.offset((kDeviceWidth-15)/2);
+                make.height.offset(140);
+                make.top.offset(5);
             }];
             
             UIImageView *imageView = [[UIImageView alloc] init];
-            imageView.backgroundColor = [UIColor whiteColor];
+            imageView.backgroundColor = [UIColor greenColor];
             [button addSubview:imageView];
             [_imageViews addObject:imageView];
             [imageView makeConstraints:^(MASConstraintMaker *make) {
@@ -61,7 +61,7 @@
             [play addTarget:self action:@selector(actionPlay:) forControlEvents:UIControlEventTouchUpInside];
             [button addSubview:play];
             [_plays addObject:button];
-            [button makeConstraints:^(MASConstraintMaker *make) {
+            [play makeConstraints:^(MASConstraintMaker *make) {
                 make.centerX.equalTo(button.mas_centerX);
                 make.centerY.equalTo(button.mas_centerY);
                 make.width.offset(50);

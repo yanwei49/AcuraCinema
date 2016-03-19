@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566C15D71C9CD6E500A63930 /* YWVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566C15D61C9CD6E500A63930 /* YWVedioViewController.m */; };
+		566C15DA1C9CE05E00A63930 /* YWNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566C15D91C9CE05E00A63930 /* YWNavViewController.m */; };
+		566C15DD1C9D0C2600A63930 /* YWMoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 566C15DC1C9D0C2600A63930 /* YWMoreModel.m */; };
+		566C15E01C9D3CC400A63930 /* YWMoviePlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566C15DF1C9D3CC400A63930 /* YWMoviePlayView.m */; };
+		566C15E31C9D4CC900A63930 /* YWLauchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566C15E21C9D4CC900A63930 /* YWLauchViewController.m */; };
 		566D99601C9AAADD00608B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D995F1C9AAADD00608B53 /* main.m */; };
 		566D99631C9AAADD00608B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D99621C9AAADD00608B53 /* AppDelegate.m */; };
 		566D99691C9AAADD00608B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D99671C9AAADD00608B53 /* Main.storyboard */; };
@@ -33,8 +38,6 @@
 		56A5077F1C9B91F5009FC294 /* index01.html in Resources */ = {isa = PBXBuildFile; fileRef = 56A5077E1C9B91F5009FC294 /* index01.html */; };
 		56A507921C9BDD82009FC294 /* YWFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507911C9BDD82009FC294 /* YWFirstTableViewCell.m */; };
 		56A507951C9BDD8D009FC294 /* YWSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507941C9BDD8D009FC294 /* YWSecondTableViewCell.m */; };
-		56A507981C9BDD98009FC294 /* YWThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507971C9BDD98009FC294 /* YWThirdTableViewCell.m */; };
-		56A5079B1C9BDDAB009FC294 /* YWFourTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5079A1C9BDDAB009FC294 /* YWFourTableViewCell.m */; };
 		56A5079E1C9BDDB5009FC294 /* YWFiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */; };
 		56A507A11C9BF104009FC294 /* YWMovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507A01C9BF104009FC294 /* YWMovieListViewController.m */; };
 		56A507A41C9BF184009FC294 /* YWMovieListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A507A31C9BF184009FC294 /* YWMovieListTableViewCell.m */; };
@@ -91,6 +94,16 @@
 
 /* Begin PBXFileReference section */
 		33E181D0105B7B534F96B6B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		566C15D51C9CD6E500A63930 /* YWVedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWVedioViewController.h; sourceTree = "<group>"; };
+		566C15D61C9CD6E500A63930 /* YWVedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWVedioViewController.m; sourceTree = "<group>"; };
+		566C15D81C9CE05E00A63930 /* YWNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWNavViewController.h; sourceTree = "<group>"; };
+		566C15D91C9CE05E00A63930 /* YWNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWNavViewController.m; sourceTree = "<group>"; };
+		566C15DB1C9D0C2600A63930 /* YWMoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMoreModel.h; sourceTree = "<group>"; };
+		566C15DC1C9D0C2600A63930 /* YWMoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMoreModel.m; sourceTree = "<group>"; };
+		566C15DE1C9D3CC400A63930 /* YWMoviePlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMoviePlayView.h; sourceTree = "<group>"; };
+		566C15DF1C9D3CC400A63930 /* YWMoviePlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMoviePlayView.m; sourceTree = "<group>"; };
+		566C15E11C9D4CC900A63930 /* YWLauchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLauchViewController.h; sourceTree = "<group>"; };
+		566C15E21C9D4CC900A63930 /* YWLauchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLauchViewController.m; sourceTree = "<group>"; };
 		566D995B1C9AAADD00608B53 /* AcuraCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcuraCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566D995F1C9AAADD00608B53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		566D99611C9AAADD00608B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,10 +157,6 @@
 		56A507911C9BDD82009FC294 /* YWFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWFirstTableViewCell.m; sourceTree = "<group>"; };
 		56A507931C9BDD8D009FC294 /* YWSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWSecondTableViewCell.h; sourceTree = "<group>"; };
 		56A507941C9BDD8D009FC294 /* YWSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWSecondTableViewCell.m; sourceTree = "<group>"; };
-		56A507961C9BDD98009FC294 /* YWThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWThirdTableViewCell.h; sourceTree = "<group>"; };
-		56A507971C9BDD98009FC294 /* YWThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWThirdTableViewCell.m; sourceTree = "<group>"; };
-		56A507991C9BDDAB009FC294 /* YWFourTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWFourTableViewCell.h; sourceTree = "<group>"; };
-		56A5079A1C9BDDAB009FC294 /* YWFourTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWFourTableViewCell.m; sourceTree = "<group>"; };
 		56A5079C1C9BDDB5009FC294 /* YWFiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWFiveTableViewCell.h; sourceTree = "<group>"; };
 		56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWFiveTableViewCell.m; sourceTree = "<group>"; };
 		56A5079F1C9BF104009FC294 /* YWMovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMovieListViewController.h; sourceTree = "<group>"; };
@@ -260,6 +269,8 @@
 				566D99911C9AAAF300608B53 /* 会员 */,
 				566D99611C9AAADD00608B53 /* AppDelegate.h */,
 				566D99621C9AAADD00608B53 /* AppDelegate.m */,
+				566C15E11C9D4CC900A63930 /* YWLauchViewController.h */,
+				566C15E21C9D4CC900A63930 /* YWLauchViewController.m */,
 				566D99BC1C9AB3F000608B53 /* Header.h */,
 				566D99BD1C9AB46800608B53 /* PrefixHeader.pch */,
 				566D99671C9AAADD00608B53 /* Main.storyboard */,
@@ -347,6 +358,8 @@
 			children = (
 				566D999F1C9AABEB00608B53 /* YWExpandViewController.h */,
 				566D99A01C9AABEB00608B53 /* YWExpandViewController.m */,
+				566C15D51C9CD6E500A63930 /* YWVedioViewController.h */,
+				566C15D61C9CD6E500A63930 /* YWVedioViewController.m */,
 			);
 			name = vc;
 			sourceTree = "<group>";
@@ -387,10 +400,6 @@
 				56A507911C9BDD82009FC294 /* YWFirstTableViewCell.m */,
 				56A507931C9BDD8D009FC294 /* YWSecondTableViewCell.h */,
 				56A507941C9BDD8D009FC294 /* YWSecondTableViewCell.m */,
-				56A507961C9BDD98009FC294 /* YWThirdTableViewCell.h */,
-				56A507971C9BDD98009FC294 /* YWThirdTableViewCell.m */,
-				56A507991C9BDDAB009FC294 /* YWFourTableViewCell.h */,
-				56A5079A1C9BDDAB009FC294 /* YWFourTableViewCell.m */,
 				56A5079C1C9BDDB5009FC294 /* YWFiveTableViewCell.h */,
 				56A5079D1C9BDDB5009FC294 /* YWFiveTableViewCell.m */,
 				56A507A21C9BF184009FC294 /* YWMovieListTableViewCell.h */,
@@ -449,6 +458,8 @@
 				566D99971C9AAB5D00608B53 /* YWBaseViewController.m */,
 				566D99B51C9AAF7C00608B53 /* YWCollectionViewCell.h */,
 				566D99B61C9AAF7C00608B53 /* YWCollectionViewCell.m */,
+				566C15D81C9CE05E00A63930 /* YWNavViewController.h */,
+				566C15D91C9CE05E00A63930 /* YWNavViewController.m */,
 			);
 			name = super;
 			sourceTree = "<group>";
@@ -466,6 +477,8 @@
 		56A5076C1C9B7E64009FC294 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				566C15DE1C9D3CC400A63930 /* YWMoviePlayView.h */,
+				566C15DF1C9D3CC400A63930 /* YWMoviePlayView.m */,
 				56A5076D1C9B7E74009FC294 /* YWMovieModel.h */,
 				56A5076E1C9B7E74009FC294 /* YWMovieModel.m */,
 				56A507701C9B7E80009FC294 /* YWPictureModel.h */,
@@ -476,6 +489,8 @@
 				56A507771C9B7F55009FC294 /* YWLoadDataSource.m */,
 				56A507791C9B8181009FC294 /* YWMoveCategory.h */,
 				56A5077A1C9B8181009FC294 /* YWMoveCategory.m */,
+				566C15DB1C9D0C2600A63930 /* YWMoreModel.h */,
+				566C15DC1C9D0C2600A63930 /* YWMoreModel.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -748,21 +763,24 @@
 				566D99AC1C9AAEE000608B53 /* YWHomeViewController.m in Sources */,
 				566D99B71C9AAF7C00608B53 /* YWCollectionViewCell.m in Sources */,
 				56A507681C9B7A0E009FC294 /* YWLiveCollectionViewCell.m in Sources */,
-				56A507981C9BDD98009FC294 /* YWThirdTableViewCell.m in Sources */,
 				56A507A11C9BF104009FC294 /* YWMovieListViewController.m in Sources */,
+				566C15DD1C9D0C2600A63930 /* YWMoreModel.m in Sources */,
 				566D99A41C9AABF900608B53 /* YWMineViewController.m in Sources */,
 				56A5076B1C9B7A61009FC294 /* YWMoreTableViewCell.m in Sources */,
+				566C15E01C9D3CC400A63930 /* YWMoviePlayView.m in Sources */,
 				56A507781C9B7F55009FC294 /* YWLoadDataSource.m in Sources */,
 				56A507751C9B7E8F009FC294 /* YWUserModel.m in Sources */,
 				566D99631C9AAADD00608B53 /* AppDelegate.m in Sources */,
 				56A507951C9BDD8D009FC294 /* YWSecondTableViewCell.m in Sources */,
+				566C15D71C9CD6E500A63930 /* YWVedioViewController.m in Sources */,
 				56A507621C9B7827009FC294 /* YWMoreViewController.m in Sources */,
 				566D99601C9AAADD00608B53 /* main.m in Sources */,
 				56A5079E1C9BDDB5009FC294 /* YWFiveTableViewCell.m in Sources */,
 				566D99BB1C9AB17C00608B53 /* YWBuyMemberView.m in Sources */,
+				566C15DA1C9CE05E00A63930 /* YWNavViewController.m in Sources */,
 				566D99A11C9AABEB00608B53 /* YWExpandViewController.m in Sources */,
-				56A5079B1C9BDDAB009FC294 /* YWFourTableViewCell.m in Sources */,
 				566D99981C9AAB5D00608B53 /* YWBaseViewController.m in Sources */,
+				566C15E31C9D4CC900A63930 /* YWLauchViewController.m in Sources */,
 				56A507721C9B7E80009FC294 /* YWPictureModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

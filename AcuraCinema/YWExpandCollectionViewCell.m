@@ -21,21 +21,21 @@
         self.contentView.backgroundColor = [UIColor whiteColor];
         
         _imageView = [[UIImageView alloc] init];
-        _imageView.backgroundColor = [UIColor whiteColor];
+        _imageView.backgroundColor = [UIColor greenColor];
         _imageView.layer.masksToBounds = YES;
         _imageView.layer.cornerRadius = 5;
         [self.contentView addSubview:_imageView];
         [_imageView makeConstraints:^(MASConstraintMaker *make) {
             make.top.bottom.right.left.offset(0);
         }];
-        
-        UIImageView *iv = [[UIImageView alloc] init];
-        iv.backgroundColor = [UIColor blackColor];
-        [_imageView addSubview:iv];
-        [iv makeConstraints:^(MASConstraintMaker *make) {
-            make.bottom.left.right.offset(0);
-            make.height.offset(30);
-        }];
+//        
+//        UIImageView *iv = [[UIImageView alloc] init];
+//        iv.backgroundColor = [UIColor blackColor];
+//        [_imageView addSubview:iv];
+//        [iv makeConstraints:^(MASConstraintMaker *make) {
+//            make.bottom.left.right.offset(0);
+//            make.height.offset(30);
+//        }];
         
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.textColor = [UIColor whiteColor];
@@ -43,13 +43,18 @@
         [self.contentView addSubview:_titleLabel];
         [_titleLabel makeConstraints:^(MASConstraintMaker *make) {
             make.bottom.offset(0);
-            make.left.offset(5);
-            make.right.offset(-5);
+            make.left.offset(10);
+            make.right.offset(-10);
             make.height.offset(30);
         }];
     }
     
     return self;
+}
+
+- (void)setTextFont:(NSInteger)textFont {
+    _textFont = textFont;
+    _titleLabel.font = [UIFont systemFontOfSize:textFont];
 }
 
 - (void)setCategory:(YWMoveCategory *)category {

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class YWMoreModel;
 @interface YWMoreTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) YWMoreModel *more;
 
 @end

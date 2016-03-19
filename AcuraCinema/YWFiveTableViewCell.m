@@ -24,20 +24,20 @@
         _labels = [[NSMutableArray alloc] init];
         _buttons = [[NSMutableArray alloc] init];
         
-        for (NSInteger i=0; i<8; i++) {
+        for (NSInteger i=0; i<6; i++) {
             UIButton *button = [[UIButton alloc] init];
             [button addTarget:self action:@selector(actionOnClick:) forControlEvents:UIControlEventTouchUpInside];
             [self.contentView addSubview:button];
             [_buttons addObject:button];
             [button makeConstraints:^(MASConstraintMaker *make) {
-                make.left.offset(10+(kDeviceWidth-30)/2*(i%2));
-                make.width.offset((kDeviceWidth-30)/2);
-                make.height.offset(80);
-                make.top.offset(10+90*(i/2));
+                make.left.offset(5*(i%2+1)+(kDeviceWidth-15)/2*(i%2));
+                make.width.offset((kDeviceWidth-15)/2);
+                make.height.offset(140);
+                make.top.offset(5+145*(i/2));
             }];
             
             UIImageView *imageView = [[UIImageView alloc] init];
-            imageView.backgroundColor = [UIColor whiteColor];
+            imageView.backgroundColor = [UIColor greenColor];
             [button addSubview:imageView];
             [_imageViews addObject:imageView];
             [imageView makeConstraints:^(MASConstraintMaker *make) {

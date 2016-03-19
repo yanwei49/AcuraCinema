@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"会员中心";
     _titles = @[@"意见投诉", @"会员协议", @"联系客服"];
     _images = @[@"", @"", @""];
     
@@ -31,7 +31,7 @@
 
 - (void)createSubViews {
     _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
-    _tableView.backgroundColor = CustomColor(50, 50, 50);
+    _tableView.backgroundColor = SeparatorColor;
     _tableView.delegate = self;
     _tableView.dataSource = self;
     UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kDeviceWidth, 40)];

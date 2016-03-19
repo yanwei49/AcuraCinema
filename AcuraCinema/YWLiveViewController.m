@@ -7,6 +7,8 @@
 //
 
 #import "YWLiveViewController.h"
+#import "YWLiveCollectionViewCell.h"
+#import "YWLoadDataSource.h"
 
 @interface YWLiveViewController()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
@@ -20,7 +22,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"主播";
+    _dataSources = [[NSMutableArray alloc] initWithArray:[[YWLoadDataSource shareInstance] obtainLives]];
     
+    [self createSubViews];
 }
 
 - (void)createSubViews {
@@ -28,11 +33,14 @@
 
     _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     _collectionView.backgroundColor = [UIColor whiteColor];
+    [_collectionView registerClass:[YWLiveCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     [self.view addSubview:_collectionView];
     [_collectionView makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.right.offset(0);
+        make.top.bottom.offset(0);
+        make.left.offset(5);
+        make.right.offset(-5);
     }];
 }
 
@@ -41,8 +49,15 @@
     return _dataSources.count;
 }
 
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    YWLiveCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    cell.user = _dataSources[indexPath.row];
+    
+    return cell;
+}
+
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
-    return 5;
+    return 0;
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
@@ -50,7 +65,7 @@
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    return CGSizeMake((kDeviceWidth-15)/2, (kDeviceWidth-15)/2);
+    return CGSizeMake((kDeviceWidth-15)/2, 300);
 }
 
 @end

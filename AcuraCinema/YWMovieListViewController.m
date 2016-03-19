@@ -8,6 +8,8 @@
 
 #import "YWMovieListViewController.h"
 #import "YWMovieListTableViewCell.h"
+#import "YWLoadDataSource.h"
+#import "YWMoveCategory.h"
 
 @interface YWMovieListViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -21,7 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"VIP专区";
+    self.view.backgroundColor = [UIColor blackColor];
+    _dataSouces = [[NSMutableArray alloc] initWithArray:[[YWLoadDataSource shareInstance] obtainMovieWithType:_category.movieCategoryId withNums:20]];
     
     [self createSubViews];
 }
@@ -31,9 +35,6 @@
     _tableView.backgroundColor = CustomColor(50, 50, 50);
     _tableView.delegate = self;
     _tableView.dataSource = self;
-    UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kDeviceWidth, 40)];
-    headView.backgroundColor = SeparatorColor;
-    _tableView.tableHeaderView = headView;
     _tableView.tableFooterView = [[UIView alloc] init];
     [self.view addSubview:_tableView];
     [_tableView makeConstraints:^(MASConstraintMaker *make) {
@@ -51,12 +52,18 @@
     if (!cell) {
         cell = [[YWMovieListTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
+    cell.movie = _dataSouces[indexPath.row];
     
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 100;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self checkIsMember];
 }
 
 @end

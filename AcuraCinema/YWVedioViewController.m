@@ -1,21 +1,21 @@
 //
-//  YWExpandViewController.m
+//  YWVedioViewController.m
 //  AcuraCinema
 //
-//  Created by David Yu on 17/3/16.
+//  Created by David Yu on 19/3/16.
 //  Copyright © 2016年 yanwei. All rights reserved.
 //
 
-#import "YWExpandViewController.h"
+#import "YWVedioViewController.h"
 #import "YWExpandCollectionViewCell.h"
 #import "YWLoadDataSource.h"
-#import "YWVedioViewController.h"
+#import "YWMoveCategory.h"
 
-@interface YWExpandViewController()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface YWVedioViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end
 
-@implementation YWExpandViewController
+@implementation YWVedioViewController
 {
     UICollectionView        *_collectionView;
     NSMutableArray          *_dataSources;
@@ -23,9 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"频道";
-    _dataSources = [[NSMutableArray alloc] init];
-    [_dataSources addObjectsFromArray:[[YWLoadDataSource shareInstance] obtainMovieCategory]];
+    self.title = _category.movieCategoryName;
+    _dataSources = [[NSMutableArray alloc] initWithArray:[[YWLoadDataSource shareInstance] obtainMovieWithType:_category.movieCategoryId withNums:20]];
     
     [self createSubViews];
 }
@@ -59,10 +58,7 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    YWVedioViewController *vc = [[YWVedioViewController alloc] init];
-    vc.category = _dataSources[indexPath.row];
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+    [self checkIsMember];
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {

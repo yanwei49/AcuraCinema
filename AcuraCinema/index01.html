@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <title>test</title>
-</head>
-<body>
-    <p><input id="test" type="button" value="调起支付"></p>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <p>测试数据测试数据</p>
-    <br/>
-    <hr>
-    <!--1.添加控制台获得的script标签-->
-    <script id='spay-script' src='https://jspay.beecloud.cn/1/pay/jsbutton/returnscripts?appId=c09434d4-6972-4689-80a5-ff22953b589f'></script>
-    <script>
-<!--         document.getElementById("test").onclick = func1();-->
-
-         var func1 = function(value1,value2) {
-
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <title>test</title>
+    </head>
+    <body>
+        <p><input id="test" type="button" value="调起支付"></p>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <p>测试数据测试数据</p>
+        <br/>
+        <hr>
+        <!--1.添加控制台获得的script标签-->
+        <script id='spay-script' src='https://jspay.beecloud.cn/1/pay/jsbutton/returnscripts?appId=c09434d4-6972-4689-80a5-ff22953b589f'></script>
+        <script>
+        document.getElementById("test").onclick = func1();
+        
+        var func1 = function() {
+        
             BC.err = function(data) {
                 //注册错误信息接受
                 alert(data["ERROR"]);
-            }
+                }
             /**
             * 3. 调用BC.click 接口传递参数
             */
@@ -48,14 +48,14 @@
                 "amount": "{{amount}}",
                 "out_trade_no": "{{out_trade_no}}", //唯一订单号
                 "sign" : "{{sign}}",
-                 /**
-                 * optional 为自定义参数对象，目前只支持基本类型的key ＝》 value, 不支持嵌套对象；
-                 * 回调时如果有optional则会传递给webhook地址，webhook的使用请查阅文档
-                 */
+                /**
+                * optional 为自定义参数对象，目前只支持基本类型的key ＝》 value, 不支持嵌套对象；
+                * 回调时如果有optional则会传递给webhook地址，webhook的使用请查阅文档
+                */
                 "optional": {"test": "willreturn"}
             });
         };
-    </script>
-</body>
+        </script>
+    </body>
 </html>
 

@@ -16,7 +16,7 @@
 @property (nonatomic, strong) NSString *movieImage;
 @property (nonatomic, strong) NSString *movieUrl;
 @property (nonatomic, strong) NSString *movieTime;
-@property (nonatomic, strong) NSString *movieTag;       //1.最新   2.最火
+@property (nonatomic, strong) NSString *movieState;       //1.最新   2.最火
 @property (nonatomic, strong) YWMoveCategory *movieCategory;
 
 @end
